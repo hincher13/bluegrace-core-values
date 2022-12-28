@@ -1,9 +1,14 @@
 import './App.css';
 import Header from './components/Header';
+import CoreValueList from './components/CoreValueList';
+
 
 function App() {
   return(
-    <Header />
+    <div>
+      <Header />
+      <CoreValueList />
+    </div>
   )
 };
 
